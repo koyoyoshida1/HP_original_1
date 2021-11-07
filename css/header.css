@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  font-family: "Montserrat", serif;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  display: inline-block;
+}
+
+header .language ul {
+  display: flex;
+  position: relative;
+  left: 1%;
+  float: left;
+}
+
+header .language ul li a {
+  color: #000;
+}
+
+header .language ul li {
+  margin: 10px;
+}
+
+header .language1:hover {
+  color: #7FFFD4;
+}
+
+header .language2:hover {
+  color: #7FFFD4;
+}
+
+header .navbar ul {
+  display: flex;
+  position: relative;
+  left: 32%;
+  float: left;
+}
+
+header .navbar ul li {
+  margin: 10px;
+  padding-right: 40px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header .navbar ul li:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+header .drawer {
+  visibility: visible;
+  width: 24px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  border-top: solid 4px #000;
+  cursor: pointer;
+  z-index: 100;
+}
+      
+header .drawer::before,
+header .drawer::after {
+  content: "";
+  display: block;
+  width: 24px;
+  background: #000;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+      
+header .drawer::before {
+  top: 6px;
+}
+      
+header .drawer::after {
+  top: 15px;
+}
+      
+
+header .respons {
+  visibility: visible;
+}
+
+body.nav-open header .drawer {
+  border-top: 0;
+}
+      
+body.nav-open header .drawer::before {
+  top: 9px;
+  transform: rotate(-45deg);
+}
+      
+body.nav-open header .drawer::after {
+  top: 9px;
+  transform: rotate(45deg);
+}
+
+.inner {
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro {
+  width: 40%;
+}
+
+.section_ttl {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+  
+.section_ttl small {
+  border-left: solid 8px;
+  padding-right: 10px;
+}
+  
+.intro_txt {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 540px) {
+  header .navbar ul {
+    display: none;
+  }
+}

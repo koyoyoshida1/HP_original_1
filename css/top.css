@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.top_all {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  background: url("../img/top.png") fixed;
+  background-size: cover;
+}
+
+.top_inner {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top_inner h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.top_inner p {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .top_inner h1 {
+  font-size: 50px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .top_inner h1 {
+    font-size: 30px;
+  }
+
+  .top_inner p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .top_inner h1 {
+    font-size: 20px;
+  }
+
+  .top_inner p {
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width: 375px) {
+  .top_inner h1 {
+    font-size: 18px;
+  }
+}

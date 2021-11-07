@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+.footer_all {
+  background: #F0FFF0;
+}
+
+.footer_inner {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer_inner h1 {
+  font-size: 50px;
+  color: #000;
+  font-weight: 600;
+}
+
+footer .footer_l1:hover {
+  color: #7FFFD4;
+}
+
+footer .footer_l2:hover {
+  color: #7FFFD4;
+}
+
+.footer_inner p {
+  font-size: 20px;
+  color :#000;
+  font-weight: 600;
+}
+
+.copyright {
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (max-width: 375px) {
+  .footer_inner h1 {
+    font-size: 30px;
+  }
+}

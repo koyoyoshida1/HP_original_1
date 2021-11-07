@@ -1,0 +1,453 @@
+@charset "UTF-8";
+
+.food_lunch {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.food_lunch_inner1 {
+  max-width: 80%;
+  margin: 150px auto;
+  position: relative;
+}
+
+.food_lunch_inner2 {
+  max-width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.food_lunch_intro {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 3%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.food_lunch_intro h2 {
+  font-size: 30px;
+  color: #000;
+  opacity: 0.8;
+  background: linear-gradient(transparent 50%, #7FFFD4);
+}
+
+.food_lunch_intro h2 small {
+  font-size: 25px;
+}
+
+.food_lunch_intro p {
+  color: #000;
+  font-size: 15px;
+}
+
+.food_lunch_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.food_lunch_item {
+  width: 48%;
+  height: 480px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+  position: relative;
+  margin: 10% 0;
+}
+
+.food_lunch_item._food2 {
+  bottom: 65px;
+  margin-bottom: 0;
+}
+
+.food_lunch_item._food3 {
+  bottom: 65px;
+  margin: 0;
+}
+
+.food_lunch_item._food4 {
+  bottom: 130px;
+  margin: 0;
+}
+
+.food_lunch_item._food5 {
+  bottom: 0;
+  margin: 0;
+}
+
+.food_lunch_item._food6 {
+  bottom: 195px;
+  margin-bottom: 0;
+}
+
+.food_lunch_item._food7 {
+  bottom: 65px;
+  margin: 0;
+}
+
+.food_lunch_img {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+}
+
+.food_lunch_img::after {
+  content: "";
+  position: absolute;
+  width: 375px;
+  height: 715px;
+  opacity: 0.5;
+  background: #fff;
+  z-index: -1;
+  -webkit-transform: rotate(13deg);
+  transform: rotate(13deg);
+  left: 50%;
+  top: -25px;
+}
+
+.food_lunch_img._food1 {
+  background: url(../img/food_lunch_1.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food2 {
+  background: url(../img/food_lunch_2.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food3 {
+  background: url(../img/food_lunch_3.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food4 {
+  background: url(../img/food_lunch_4.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food5 {
+  background: url(../img/food_lunch_5.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food6 {
+  background: url(../img/food_lunch_6.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food7 {
+  background: url(../img/food_lunch_7.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food8 {
+  background: url(../img/food_lunch_8.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food9 {
+  background: url(../img/food_lunch_9.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food10 {
+  background: url(../img/food_lunch_10.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food11 {
+  background: url(../img/food_lunch_11.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food12 {
+  background: url(../img/food_lunch_12.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food13 {
+  background: url(../img/food_lunch_13.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food14 {
+  background: url(../img/food_lunch_14.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food15 {
+  background: url(../img/food_lunch_15.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food16 {
+  background: url(../img/food_lunch_16.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food17 {
+  background: url(../img/food_lunch_17.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food18 {
+  background: url(../img/food_lunch_18.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food19 {
+  background: url(../img/food_lunch_19.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food20 {
+  background: url(../img/food_lunch_20.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food21 {
+  background: url(../img/food_lunch_21.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food22 {
+  background: url(../img/food_lunch_22.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food23 {
+  background: url(../img/food_lunch_23.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food24 {
+  background: url(../img/food_lunch_24.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food25 {
+  background: url(../img/food_lunch_25.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food26 {
+  background: url(../img/food_lunch_26.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food27 {
+  background: url(../img/food_lunch_27.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food28 {
+  background: url(../img/food_lunch_28.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food29 {
+  background: url(../img/food_lunch_29.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food30 {
+  background: url(../img/food_lunch_30.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food31 {
+  background: url(../img/food_lunch_31.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food32 {
+  background: url(../img/food_lunch_32.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_img._food33 {
+  background: url(../img/food_lunch_33.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.food_lunch_inner_txt {
+  padding: 20px 5px 0 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-1%, -50%);
+  text-align: center;
+}
+
+.food_lunch_subttl {
+  margin-bottom: 10px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: #000;
+  font-weight: 700;
+}
+
+.food_lunch_ttl {
+  font-size: 15px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: 600;
+}
+
+.food_lunch_price {
+  font-size: 17px;
+  color: #000;
+  font-weight: 800;
+}
+
+.food_lunch_other {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.food_lunch_other_title {
+  font-size: 25px;
+  color: #000;
+  opacity: 0.8;
+  display: inline-block;
+  background: linear-gradient(transparent 50%, #7FFFD4);
+}
+
+.food_lunch_other_inner {
+  width: 80%;
+  padding: 0 250px;
+}
+
+.food_lunch_other_inner dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food_lunch_other_inner dt {
+  width: 80%;
+  text-align: left;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.food_lunch_other_inner dd {
+  width: 20%;
+  text-align: right;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .food_lunch_item {
+    display: block;
+    width: 80%;
+    margin: 0 auto 10%;
+    height: 120%;
+  }
+      
+  .food_lunch_item._food2,
+  .food_lunch_item._food3,
+  .food_lunch_item._food4,
+  .food_lunch_item._food5,
+  .food_lunch_item._food6,
+  .food_lunch_item._food7 {
+    bottom: 0;
+    margin: 0 auto 10%;
+  }
+      
+  .food_lunch_inner_txt {
+     margin-bottom: 50px;
+  }
+      
+  .food_lunch_sub_ttl {
+    padding-top: 20px;
+  }
+
+  .food_lunch_other {
+    display: none;
+  }
+
+  .food_lunch_intro {
+    top: 0%;
+  }
+
+  .food_lunch_subttl {
+  font-size: 10px;
+}
+
+.food_lunch_ttl {
+  font-size: 5px;
+}
+
+.food_lunch_price {
+  font-size: 7px;
+}
+}
+
+@media screen and (max-width: 375px) {
+  .food_lunch_intro h2 {
+    font-size: 20px;
+  }
+  
+  .food_lunch_intro h2 small {
+  font-size: 10px;
+}
+
+.food_lunch_intro p {
+  font-size: 5px;
+}
+
+.food_lunch_subttl {
+  font-size: 1px;
+}
+
+.food_lunch_ttl {
+  font-size: 0.5px;
+}
+
+.food_lunch_price {
+  font-size: 0.75px;
+}
+}

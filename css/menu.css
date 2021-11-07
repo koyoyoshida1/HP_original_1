@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.menu_all {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: #F0FFF0 fixed;
+  background-size: cover;
+}
+
+.menu_inner {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu_inner h2 {
+  font-size: 100px;
+  font-weight: 800;
+  color: #000;
+  opacity: 0.8;
+  background: linear-gradient(transparent 50%, #7FFFD4);
+}
+
+.menu_inner h3 {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+  color: #000;
+}
+
+.menu_inner p {
+  color: #000;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.menu_item_1 {
+  background: #F0FFF0;
+}
+
+.menu_item_2 {
+  background: #FFF;
+}
+
+.menu_item_all {
+  max-width: 1000px;
+  padding-bottom: 150px;
+  margin: 0 175px;
+  text-align: center;
+  display: flex;
+}
+
+.menu_item_inner {
+  width: 80%;
+  padding: 50px 50px;
+}
+
+.menu_item_inner dl{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu_item_inner dt {
+  width: 80%;
+  text-align: left;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.menu_item_inner dd {
+  width: 20%;
+  text-align: right;
+  color: #000;
+}
+
+.menu_item_inner h2 {
+  color: #000;
+  font-size: 35px;
+  font-weight: 900;
+  background: linear-gradient(transparent 50%, #7FFFD4);
+}
+
+.menu_item_title {
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 70px;
+  color: #000;
+  font-weight: 700;
+  background: linear-gradient(transparent 50%, #7FFFD4);
+}
+
+.menu_item_title small{
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu_item_title small {
+    font-size: 10px;
+  }
+
+  .menu_item_inner dt {
+    font-size: 10px;
+  }
+  
+  .menu_item_inner dd {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu_item_1 {
+    display: none;
+  }
+  
+  .menu_item_2 {
+    display: none;
+  }
+
+  .menu_item_all {
+    display: none;
+  }
+  
+  .menu_inner h2 {
+    font-size: 40px;
+  }
+  
+  .menu_inner h3 {
+    font-size: 15px;
+  }
+  
+  .menu_inner p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .menu_inner h3 {
+    font-size: 10px;
+  }
+
+  .menu_inner p {
+    font-size: 2px;
+  }
+}
